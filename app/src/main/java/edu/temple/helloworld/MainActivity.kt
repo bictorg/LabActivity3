@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // Organize the layout
     private fun organizeLayout() {
         nameEditText.updateLayoutParams<ConstraintLayout.LayoutParams> {
             topToTop = ConstraintLayout.LayoutParams.PARENT_ID
